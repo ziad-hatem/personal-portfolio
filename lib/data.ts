@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import dashboard from "@/public/dashboard.png";
+import figma from "@/public/figma.png";
+import digitalhippo from "@/public/digitalhippo.png";
+import resumebuilder from "@/public/resumebuilder.png";
+import codepen from "@/public/codepen.png";
+import comfysloth from "@/public/comfysloth.png";
 
 export const links = [
   {
@@ -35,52 +38,73 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "High School",
+    location: "Egypt",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studying scientific mathematics in High School afsd fasdfasdasdfasdfasdf.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "React.js Developer",
+    location: "India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer in Sync Intern's intership for 1 month. i Built Many projects .I also up skilling to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Up Skilling to Full stack With Laravel",
+    location: "Egypt",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I also up skilling to the full stack to be React next Laravel and mysql.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dashboard",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a Frontend developer on this Dashboard.",
+    tags: ["React", "Next.js", "Tailwind", "Nivo Charts"],
+    imageUrl: dashboard,
   },
   {
-    title: "rmtDev",
+    title: "Figma Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked as a Frontend developer on this Figma Clone.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "LiveBlocks"],
+    imageUrl: figma,
   },
   {
-    title: "Word Analytics",
+    title: "Digital Hippo",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I worked as a fullstack developer on this digitalHippo.",
+    tags: ["React", "Next.js", "Jspdf", "Tailwind", "Payload", "mongodb"],
+    imageUrl: digitalhippo,
+  },
+  {
+    title: "Resume Builder",
+    description:
+      "I worked as a Frontend developer on this Resume Builder.",
+    tags: ["React", "Next.js", "Jspdf", "Tailwind"],
+    imageUrl: resumebuilder,
+  },
+  {
+    title: "Codepen Clone",
+    description:
+      "I worked as a Frontend developer on this Codepen Clone.",
+    tags: ["React", "Next.js","Tailwind"],
+    imageUrl: codepen,
+  },
+  {
+    title: "Comfy Sloth",
+    description:
+      "I worked as a Frontend developer on this Comfy Sloth.",
+    tags: ["React", "Auth0","Tailwind", "Redux", "Mui"],
+    imageUrl: comfysloth,
   },
 ] as const;
 
@@ -91,17 +115,9 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Mysql",
+  "Mui",
 ] as const;
