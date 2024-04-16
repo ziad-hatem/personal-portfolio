@@ -128,4 +128,9 @@ export const skillsData = [
   "Redux",
   "Mysql",
   "Mui",
+  "OOP",
+  "Algorithm",
+  "Data Structure",
+  "Soft Skills",
+  "Clean Code"
 ] as const;
