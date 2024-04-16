@@ -8,6 +8,7 @@ import digitalhippo from "@/public/digitalhippo.png";
 import resumebuilder from "@/public/resumebuilder.png";
 import codepen from "@/public/codepen.png";
 import comfysloth from "@/public/comfysloth.png";
+import constructor from "@/public/constructor.png";
 
 export const links = [
   {
@@ -105,6 +106,13 @@ export const projectsData = [
       "I worked as a Frontend developer on this Comfy Sloth.",
     tags: ["React", "Auth0","Tailwind", "Redux", "Mui"],
     imageUrl: comfysloth,
+  },
+  {
+    title: "Constructor Company",
+    description:
+      "I worked as a Frontend developer and Ui on this constructor company.",
+    tags: ["HTML", "CSS","JS", "Google Search Console"],
+    imageUrl: constructor,
   },
 ] as const;
 
